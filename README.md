@@ -1,8 +1,8 @@
 # 🌟 Joylene Pinto - Portfolio Website
 
-> **Product Manager | Digital Marketer | Web Developer**
+> **Website Development | Content Management | Social Media Management**
 
-A modern, responsive portfolio website showcasing my projects, skills, and professional experience in product management, digital marketing, and web development.
+A modern, responsive portfolio website showcasing my projects, skills, and professional experience in website development, content management, and social media management.
 
 ## 🚀 Live Website
 **[View Portfolio →](https://joylene-19.github.io/joylene-portfolio/)**
