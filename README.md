@@ -5,7 +5,7 @@
 A modern, responsive portfolio website showcasing my projects, skills, and professional experience in product management, digital marketing, and web development.
 
 ## 🚀 Live Website
-**[View Portfolio →](https://joylene-19.github.io/portfolio-website/)**
+**[View Portfolio →](https://joylene-19.github.io/joylene-portfolio/)**
 
 ## 📋 Features
 
