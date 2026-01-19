@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joylene Pinto - Product | Marketing | Web Solutions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">JP</div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Joylene Pinto</h1>
+            <p class="hero-subtitle">Product | Marketing | Web Solutions</p>
+            <p class="hero-description">Building user-centric solutions that drive growth and deliver measurable performance through strategic thinking and data-driven execution.</p>
+            <div class="hero-cta">
+                <button class="btn btn-primary" onclick="scrollToSection('projects')">
+                    <i class="fas fa-rocket"></i>
+                    View Projects
+                </button>
+                <button class="btn btn-secondary" onclick="scrollToSection('contact')">
+                    <i class="fas fa-envelope"></i>
+                    Contact Me
+                </button>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card card-1">
+                <i class="fas fa-chart-line"></i>
+                <span>Growth</span>
+            </div>
+            <div class="floating-card card-2">
+                <i class="fas fa-users"></i>
+                <span>Users</span>
+            </div>
+            <div class="floating-card card-3">
+                <i class="fas fa-bullseye"></i>
+                <span>Results</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Real projects, measurable impact, proven results</p>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1: Jai Hind College -->
+                <div class="project-card" onclick="openProjectModal(0)">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                        <img src="images/projects/jai-hind/homepage.jpg" alt="Jai Hind College Website">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Education</div>
+                        <h3 class="project-title">Jai Hind College Website</h3>
+                        <p class="project-outcome">Restructured website architecture improving user experience and content accessibility by 45%</p>
+                        <div class="project-metrics">
+                            <span class="metric">
+                                <i class="fas fa-arrow-up"></i>
+                                45% UX Improvement
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Initium Novum -->
+                <div class="project-card" onclick="openProjectModal(1)">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                        <img src="images/projects/initium-novum/homepage.jpg" alt="Initium Novum Canada">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Immigration Services</div>
+                        <h3 class="project-title">Initium Novum Canada</h3>
+                        <p class="project-outcome">Improved lead conversion by 38% through SEO optimization and conversion-focused UX</p>
+                        <div class="project-metrics">
+                            <span class="metric">
+                                <i class="fas fa-arrow-up"></i>
+                                38% Conversion
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: TruelineSpaces -->
+                <div class="project-card" onclick="openProjectModal(2)">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                        <img src="images/projects/trueline-spaces/shopify.jpg" alt="TruelineSpaces E-commerce">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">E-commerce</div>
+                        <h3 class="project-title">TruelineSpaces E-commerce</h3>
+                        <p class="project-outcome">Built Shopify storefront and Amazon listings, driving 52% increase in online sales</p>
+                        <div class="project-metrics">
+                            <span class="metric">
+                                <i class="fas fa-arrow-up"></i>
+                                52% Sales Growth
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Eatheallove -->
+                <div class="project-card" onclick="openProjectModal(3)">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                        <img src="images/projects/eatheallove/website.jpg" alt="Eatheallove Brand">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Food & Wellness</div>
+                        <h3 class="project-title">Eatheallove Brand</h3>
+                        <p class="project-outcome">Managed web and social presence, boosting engagement by 67% through content strategy</p>
+                        <div class="project-metrics">
+                            <span class="metric">
+                                <i class="fas fa-arrow-up"></i>
+                                67% Engagement
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 5: KindryMedia -->
+                <div class="project-card" onclick="openProjectModal(4)">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                        <img src="images/projects/kindry-media/agency.jpg" alt="KindryMedia Co-founder">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Digital Media & Consulting</div>
+                        <h3 class="project-title">KindryMedia Co-founder</h3>
+                        <p class="project-outcome">Co-founded agency serving global clients with end-to-end digital solutions</p>
+                        <div class="project-metrics">
+                            <span class="metric">
+                                <i class="fas fa-globe"></i>
+                                Global Reach
+                            </span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 6: TruelineScaping -->
+                <div class="project-card" onclick="openProjectModal(5)">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                        <img src="images/projects/trueline-scaping/homepage.jpg" alt="TruelineScaping Website">
+                    </div>
+                    <div class="project-info">
+                        <div class="project-category">Landscaping Services</div>
+                        <h3 class="project-title">TruelineScaping Website</h3>
+                        <p class="project-outcome">Implemented local SEO strategy increasing organic traffic and service inquiries by 43%</p>
+                        <div class="project-metrics">
+                            <span class="metric">
+                                <i class="fas fa-arrow-up"></i>
+                                43% Traffic Growth
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Project Detail Modal -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button class="modal-close" onclick="closeProjectModal()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="project-header">
+                    <h2 id="modalTitle" class="modal-project-title">Project Title</h2>
+                    <a id="modalLink" href="#" target="_blank" class="project-link">
+                        <i class="fas fa-external-link-alt"></i>
+                        Visit Website
+                    </a>
+                </div>
+
+                <!-- Image Gallery -->
+                <div class="image-gallery">
+                    <div class="gallery-main">
+                        <img id="mainImage" src="" alt="Project Screenshot">
+                    </div>
+                    <div class="gallery-thumbnails">
+                        <img class="thumbnail active" src="" alt="Screenshot 1" onclick="changeMainImage(this)">
+                        <img class="thumbnail" src="" alt="Screenshot 2" onclick="changeMainImage(this)">
+                        <img class="thumbnail" src="" alt="Screenshot 3" onclick="changeMainImage(this)">
+                    </div>
+                </div>
+
+                <!-- Project Overview -->
+                <div class="modal-section">
+                    <h3 class="section-heading">Project Overview</h3>
+                    <div class="overview-grid">
+                        <div class="overview-item">
+                            <div class="overview-icon">
+                                <i class="fas fa-industry"></i>
+                            </div>
+                            <div class="overview-content">
+                                <span class="label">Industry</span>
+                                <span id="modalIndustry" class="value">-</span>
+                            </div>
+                        </div>
+                        <div class="overview-item">
+                            <div class="overview-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="overview-content">
+                                <span class="label">Duration</span>
+                                <span id="modalDuration" class="value">-</span>
+                            </div>
+                        </div>
+                        <div class="overview-item">
+                            <div class="overview-icon">
+                                <i class="fas fa-user-tie"></i>
+                            </div>
+                            <div class="overview-content">
+                                <span class="label">Role</span>
+                                <span id="modalRole" class="value">-</span>
+                            </div>
+                        </div>
+                        <div class="overview-item">
+                            <div class="overview-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="overview-content">
+                                <span class="label">Platform</span>
+                                <span id="modalTech" class="value">-</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Performance Metrics Dashboard -->
+                <div class="modal-section">
+                    <h3 class="section-heading">Performance Metrics</h3>
+                    <div class="metrics-dashboard">
+                        <div class="charts-grid">
+                            <div class="chart-container">
+                                <h4>User Growth</h4>
+                                <canvas id="chartGrowth"></canvas>
+                            </div>
+                            <div class="chart-container">
+                                <h4>Traffic Analytics</h4>
+                                <canvas id="chartTraffic"></canvas>
+                            </div>
+                            <div class="chart-container">
+                                <h4>Client Satisfaction</h4>
+                                <canvas id="chartSatisfaction"></canvas>
+                            </div>
+                        </div>
+                        
+                        <div class="progress-metrics">
+                            <div class="progress-item">
+                                <div class="progress-header">
+                                
+                                </div>
+                                <div class="progress-bar">
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-header">
+                                    <span class="progress-label">SEO Score</span>
+                                    <span id="seoValue" class="progress-value">0%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div id="progressSEO" class="progress-fill"></div>
+                                </div>
+                            </div>
+                            <div class="progress-item">
+                                <div class="progress-header">
+                                    <span class="progress-label">Performance</span>
+                                    <span id="perfValue" class="progress-value">0%</span>
+                                </div>
+                                <div class="progress-bar">
+                                    <div id="progressPerf" class="progress-fill"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- My Contribution -->
+                <div class="modal-section">
+                    <h3 class="section-heading">My Contribution</h3>
+                    <ul id="modalContribution" class="contribution-list">
+                        <li>Loading...</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Tools</h2>
+                <p class="section-subtitle">Technologies and methodologies I use to deliver results</p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h4>Product & Strategy</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Product Thinking</span>
+                        <span class="skill-tag">User Research</span>
+                        <span class="skill-tag">Strategic Planning</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h4>Digital Marketing</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SEO & SEM</span>
+                        <span class="skill-tag">Content Strategy</span>
+                        <span class="skill-tag">Campaign Management</span>
+                        <span class="skill-tag">Social Media</span>
+                        <span class="skill-tag">Performance Marketing</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h4>Web Development</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">WordPress</span>
+                        <span class="skill-tag">Wix</span>
+                        <span class="skill-tag">Shopify</span>
+                        <span class="skill-tag">HTML/CSS/JS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <h4>Tools & Platforms</h4>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Google Analytics</span>
+                        <span class="skill-tag">Meta Ads</span>
+                        <span class="skill-tag">Canva</span>
+                        <span class="skill-tag">Amazon Seller Central</span>
+                        <span class="skill-tag">Google Search Console</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        I'm an aspiring Product Manager and Digital Marketer with hands-on experience in building user-centric solutions that drive measurable growth. My approach combines strategic thinking with tactical execution, focusing on data-driven decisions and performance optimization.
+                    </p>
+                    <p class="about-description">
+                        Currently a 3rd-year Software Development student and President of the Dot Com Club, leading 350+ students and managing partnerships with 40+ colleges nationally. I've helped multiple clients achieve significant growth through strategic planning, conversion optimization, and performance marketing.
+                    </p>
+                    
+                    <div class="achievements">
+                        <h4>Key Achievements</h4>
+                        <div class="achievement-grid">
+                            <div class="achievement-item">
+                                <div class="achievement-number">50+</div>
+                                <div class="achievement-label">Students Led</div>
+                            </div>
+                            <div class="achievement-item">
+                                <div class="achievement-number">40+</div>
+                                <div class="achievement-label">College Partners</div>
+                            </div>
+                            <div class="achievement-item">
+                                <div class="achievement-number">6+</div>
+                                <div class="achievement-label">Successful Projects</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="awards">
+                        <h4>Awards & Recognition</h4>
+                        <ul class="awards-list">
+                            <li><i class="fas fa-trophy"></i> Sumitomo Scholarship for Academic Excellence</li>
+                            <li><i class="fas fa-trophy"></i> Shri Manoharlal K. Bhatia Scholarship for Creative Arts</li>
+                            <li><i class="fas fa-medal"></i> Ranked 2nd in Academic Topper List (2024-2025)</li>
+                            <li><i class="fas fa-medal"></i> Ranked 3rd in Academic Topper List (2023-2024)</li>
+                            <li><i class="fas fa-newspaper"></i> E-Waste Drive Leadership - Featured in The Hindu News</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="profile-card">
+                        <div class="profile-image">
+                            <img src="images/profile/joylene.jpg" alt="Joylene Pinto">
+                        </div>
+                        <div class="profile-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">3+</span>
+                                <span class="stat-label">Years Experience</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">Projects Completed</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Let's Work Together</h2>
+                <p class="section-subtitle">Ready to discuss your next project or opportunity</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:pinto.joylene.19@gmail.com">pinto.joylene.19@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>LinkedIn</h4>
+                            <a href="https://in.linkedin.com/in/joylenepinto" target="_blank">linkedin.com/in/joylene-pinto</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Instagram</h4>
+                            <a href="https://www.instagram.com/joylene__19?igsh=OHd1d2huMXpobXZk" target="_blank">@joylene__19</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/Joylene-19" target="_blank">github.com/joylene-pinto</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <div class="cta-card">
+                        <h3>Ready to start a project?</h3>
+                        <p>Let's discuss how I can help you achieve your goals through strategic product management, digital marketing, and web solutions.</p>
+                        <a href="mailto:pinto.joylene.19@gmail.com" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="logo">JP</div>
+                    <p>&copy; 2025 Joylene Pinto. All rights reserved.</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href="mailto:pinto.joylene.19@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/joylene-pinto" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://www.instagram.com/joylene__19?igsh=OHd1d2huMXpobXZk" target="_blank" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/joylene-pinto" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
