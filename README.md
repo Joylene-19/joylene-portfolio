@@ -2,7 +2,7 @@
 
 > **Website Development | Content Management | Social Media Management**
 
-A modern, responsive portfolio website showcasing my projects, skills, and professional experience in website development, content management, and social media management.
+A modern, responsive portfolio website showcasing projects and experience in website development, content management, and social media management. Built to demonstrate clean, user-centric design with focus on clarity, performance, and measurable results.
 
 ## 🚀 Live Website
 **[View Portfolio →](https://joylene-19.github.io/joylene-portfolio/)**
