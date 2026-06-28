@@ -9,9 +9,9 @@ const projectsData = [
     tech: "WordPress, WooCommerce, Custom CSS, JavaScript",
     link: "https://atlaskeeda.com",
     images: [
-        "images/projects/atlaskeeda/homepage.jpg",
-        "images/projects/atlaskeeda/coming-soon.jpg",
-        "images/projects/atlaskeeda/about.jpg"
+        "images/projects/atlaskeeda/homepage.png",
+        "images/projects/atlaskeeda/coming-soon.png",
+        "images/atlaskeeda/about.png"
     ],
     metrics: {
         conversion: 38,
@@ -35,9 +35,9 @@ const projectsData = [
     tech: "HTML, CSS, JavaScript, PHP",
     link: "https://infinitecitadels.com",
     images: [
-        "images/projects/infinite-citadels/homepage.jpg",
-        "images/projects/infinite-citadels/services.jpg",
-        "images/projects/infinite-citadels/contact.jpg"
+        "images/projects/infinite-citadels/homepage.png",
+        "images/projects/infinite-citadels/services.png",
+        "images/projects/infinite-citadels/contact.png"
     ],
     metrics: {
         conversion: 38,
