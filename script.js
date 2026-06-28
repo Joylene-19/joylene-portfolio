@@ -1,6 +1,58 @@
 // Project Data
 const projectsData = [
     {
+    id: 0,
+    title: "ATLASkeeda Design Studio",
+    industry: "Branding & Design",
+    duration: "Ongoing",
+    role: "Web Designer & Developer",
+    tech: "WordPress, WooCommerce, Custom CSS, JavaScript",
+    link: "https://atlaskeeda.com",
+    images: [
+        "images/projects/atlaskeeda/homepage.jpg",
+        "images/projects/atlaskeeda/coming-soon.jpg",
+        "images/projects/atlaskeeda/about.jpg"
+    ],
+    metrics: {
+        conversion: 38,
+            seo: 85,
+            performance: 89
+    },
+    contribution: [
+        "Currently designing and developing a custom portfolio and e-commerce website.",
+        "Creating a visual experience that showcases illustrations, workshops, storytelling, and merchandise.",
+        "Developing responsive pages with a strong focus on branding and user experience.",
+        "Implementing SEO best practices and performance optimization during development.",
+        "Building a scalable online store integrated with the studio's creative identity."
+    ]
+},
+    {
+    id: 1,
+    title: "Infinite Citadels",
+    industry: "Cybersecurity",
+    duration: "2 Months",
+    role: "Full Stack Web Developer",
+    tech: "HTML, CSS, JavaScript, PHP",
+    link: "https://infinitecitadels.com",
+    images: [
+        "images/projects/infinite-citadels/homepage.jpg",
+        "images/projects/infinite-citadels/services.jpg",
+        "images/projects/infinite-citadels/contact.jpg"
+    ],
+    metrics: {
+        conversion: 38,
+            seo: 85,
+            performance: 89
+    },
+    contribution: [
+        "Designed and developed the complete website from scratch without using any CMS.",
+        "Created responsive layouts with custom HTML, CSS, and JavaScript.",
+        "Built reusable UI components for scalability and consistency.",
+        "Optimized performance, accessibility, and SEO for faster loading and better search visibility.",
+        "Translated the company's cybersecurity vision into a clean and professional digital presence."
+    ]
+},
+    {
         id: 2,
         title: "Jai Hind College Website",
         industry: "Education",
@@ -14,8 +66,9 @@ const projectsData = [
             "images/projects/jai-hind/portal.jpg"
         ],
         metrics: {
-            seo: 88,
-            performance: 92
+            conversion: 38,
+            seo: 85,
+            performance: 89
         },
         contribution: [
             "Restructured website architecture for improved navigation and user experience",
