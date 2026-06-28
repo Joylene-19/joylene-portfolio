@@ -11,7 +11,7 @@ const projectsData = [
     images: [
         "images/projects/atlaskeeda/homepage.png",
         "images/projects/atlaskeeda/coming-soon.png",
-        "images/atlaskeeda/about.png"
+        "images/projects/atlaskeeda/about.png"
     ],
     metrics: {
         conversion: 38,
