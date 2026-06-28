@@ -1,7 +1,7 @@
 // Project Data
 const projectsData = [
     {
-        id: 0,
+        id: 2,
         title: "Jai Hind College Website",
         industry: "Education",
         duration: "3 months",
@@ -26,7 +26,7 @@ const projectsData = [
         ]
     },
     {
-        id: 1,
+        id: 3,
         title: "Initium Novum Canada",
         industry: "Immigration Services",
         duration: "4 months",
@@ -52,7 +52,7 @@ const projectsData = [
         ]
     },
     {
-        id: 2,
+        id: 4,
         title: "TruelineSpaces E-commerce",
         industry: "E-commerce",
         duration: "5 months",
@@ -78,7 +78,7 @@ const projectsData = [
         ]
     },
     {
-        id: 3,
+        id: 5,
         title: "Eatheallove Brand",
         industry: "Food & Wellness",
         duration: "6 months",
@@ -104,7 +104,7 @@ const projectsData = [
         ]
     },
     {
-        id: 4,
+        id: 6,
         title: "KindryMedia Co-founder",
         industry: "Digital Media & Consulting",
         duration: "Ongoing",
@@ -128,7 +128,7 @@ const projectsData = [
         ]
     },
     {
-        id: 5,
+        id: 7,
         title: "TruelineScaping Website",
         industry: "Landscaping Services",
         duration: "2 months",
